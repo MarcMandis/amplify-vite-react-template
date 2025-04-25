@@ -15,7 +15,6 @@ function MainApp (){
   type pannelStatus = "inLogin" | "inApp" ;
   const [currentPanel, setCurrentPanel] = useState<pannelStatus>("inLogin");
   const goToApp = () =>  {
-    
     setCurrentPanel("inApp");
   }
   

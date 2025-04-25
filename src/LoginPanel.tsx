@@ -4,7 +4,6 @@ interface ChildProps {
   updatePanelToApp: () => void;
 }
 
-
 const LoginPanel: React.FC<ChildProps> = ({ updatePanelToApp }) => {
   const handleClick = () => {
     // Call the parent's function to update its state directly
